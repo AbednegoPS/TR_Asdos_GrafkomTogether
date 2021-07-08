@@ -66,15 +66,6 @@ void tampil(void)
 
     glTranslatef(xmov, ymov, zmov);
     glPushMatrix();
-
-    //Alas
-    glBegin(GL_QUADS);
-    glColor3f(0.36, 0.27, 0.1);
-    glVertex3f(-150.0, -16, -130.0);
-    glVertex3f(-150.0, -16, 87.0);
-    glVertex3f(180.0, -16, 87.0);
-    glVertex3f(180.0, -16, -130.0);
-    glEnd();
     
     //Gedung Universitas
     glBegin(GL_QUADS);
