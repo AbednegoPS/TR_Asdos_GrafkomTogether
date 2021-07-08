@@ -12,6 +12,7 @@ int is_depth;
 
 float xrot = 0.0f;
 float yrot = 0.0f;
+float zrot = 0.0f;
 float xdiff = 0.0f;
 float ydiff = 0.0f;
 bool mouseDown = false;
@@ -63,6 +64,7 @@ void tampil(void)
 
     glRotatef(xrot, 1.0f, 0.0f, 0.0f);
     glRotatef(yrot, 0.0f, 1.0f, 0.0f);
+    glRotatef(zrot, 0.0f, 0.0f, 1.0f);
 
     glTranslatef(xmov, ymov, zmov);
     glPushMatrix();
@@ -1560,6 +1562,30 @@ void keyboard(unsigned char key, int x, int y)
     case 'a':
     case 'A':
         xmov -= 3.0;
+        break;
+    case 't':
+    case 'T':
+        xrot += 3.0;
+        break;
+    case 'g':
+    case 'G':
+        xrot -= 3.0;
+        break;
+    case 'y':
+    case 'Y':
+        yrot += 3.0;
+        break;
+    case 'h':
+    case 'H':
+        yrot -= 3.0;
+        break;
+    case 'u':
+    case 'U':
+        zrot += 3.0;
+        break;
+    case 'j':
+    case 'J':
+        zrot -= 3.0;
         break;
     case '1':
         ymov += 3.0;
