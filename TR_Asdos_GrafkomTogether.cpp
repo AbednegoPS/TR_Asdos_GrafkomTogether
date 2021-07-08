@@ -795,6 +795,163 @@ glBegin(GL_QUADS);
     glVertex3f(-14.2, 8.0, 30.0);
     glVertex3f(-14.2, 41.0, 30.0);
     glEnd();
+    
+    //Perpotongan Garis Jendela
+    float xa = 44, ya = 42, xb = 44, yb = 23, xc = 38, yc = 36, xd = 57, yd = 36;
+    float mab = (yb - ya) / (xb - xa);
+    float cab = ya - mab * xa;
+    float mcd = (yd - yc) / (xd - xc);
+    float ccd = yc - mcd * xc;
+
+    float x = (ccd - cab) / (mab - mcd);
+    float y = mab * x + cab;
+    float z = 0.3;
+
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xa, ya, z); 
+    glVertex3f(xb, yb, z);
+    glEnd();
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xc, yc, z); 
+    glVertex3f(xd, yd, z);
+    glEnd();
+    glBegin(GL_POINTS);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(x, y, z);
+    glEnd();
+    glFlush();
+
+    float xa1 = 44, ya1 = 42, xb1 = 44, yb1 = 23, xc1 = 38, yc1 = 30, xd1 = 57, yd1 = 30;
+    float ma1b1 = (yb1 - ya1) / (xb1 - xa1);
+    float ca1b1 = ya1 - ma1b1 * xa1;
+    float mc1d1 = (yd1 - yc1) / (xd1 - xc1);
+    float cc1d1 = yc1 - mc1d1 * xc1;
+
+    float x1 = (cc1d1 - ca1b1) / (ma1b1 - mc1d1);
+    float y1 = ma1b1 * x1 + ca1b1;
+    float z1 = 0.3;
+
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xa1, ya1, z1);
+    glVertex3f(xb1, yb1, z1);
+    glEnd();
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xc1, yc1, z1);
+    glVertex3f(xd1, yd1, z1);
+    glEnd();
+    glBegin(GL_POINTS);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(x1, y1, z1);
+    glEnd();
+    glFlush();
+
+    float xa2 = 50, ya2 = 42, xb2 = 50, yb2 = 23, xc2 = 38, yc2 = 30, xd2 = 57, yd2 = 30;
+    float ma2b2 = (yb2 - ya2) / (xb2 - xa2);
+    float ca2b2 = ya2 - ma2b2 * xa2;
+    float mc2d2 = (yd2 - yc2) / (xd2 - xc2);
+    float cc2d2 = yc2 - mc2d2 * xc2;
+
+    float x2 = (cc2d2 - ca2b2) / (ma2b2 - mc2d2);
+    float y2 = ma2b2 * x2 + ca2b2;
+    float z2 = 0.3;
+
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xa2, ya2, z2);
+    glVertex3f(xb2, yb2, z2);
+    glEnd();
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xc2, yc2, z2);
+    glVertex3f(xd2, yd2, z2);
+    glEnd();
+    glBegin(GL_POINTS);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(x2, y2, z2);
+    glEnd();
+    glFlush();
+
+    float xa3 = -44, ya3 = 42, xb3 = -44, yb3 = 23, xc3 = -38, yc3 = 36, xd3 = -57, yd3 = 36;
+    float ma3b3 = (yb3 - ya3) / (xb3 - xa3);
+    float ca3b3 = ya3 - ma3b3 * xa3;
+    float mc3d3 = (yd3 - yc3) / (xd3 - xc3);
+    float cc3d3 = yc3 - mc3d3 * xc3;
+
+    float x3 = (cc3d3 - ca3b3) / (ma3b3 - mc3d3);
+    float y3 = ma3b3 * x3 + ca3b3;
+    float z3 = 0.3;
+
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xa3, ya3, z3);
+    glVertex3f(xb3, yb3, z3);
+    glEnd();
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xc3, yc3, z3);
+    glVertex3f(xd3, yd3, z3);
+    glEnd();
+    glBegin(GL_POINTS);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(x3, y3, z3);
+    glEnd();
+    glFlush();
+
+    float xa4 = -44, ya4 = 42, xb4 = -44, yb4 = 23, xc4 = -38, yc4 = 30, xd4 = -57, yd4 = 30;
+    float ma4b4 = (yb4 - ya4) / (xb4 - xa4);
+    float ca4b4 = ya4 - ma4b4 * xa4;
+    float mc4d4 = (yd4 - yc4) / (xd4 - xc4);
+    float cc4d4 = yc4 - mc4d4 * xc4;
+
+    float x4 = (cc4d4 - ca4b4) / (ma4b4 - mc4d4);
+    float y4 = ma4b4 * x4 + ca4b4;
+    float z4 = 0.3;
+
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xa4, ya4, z4);
+    glVertex3f(xb4, yb4, z4);
+    glEnd();
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xc4, yc4, z4);
+    glVertex3f(xd4, yd4, z4);
+    glEnd();
+    glBegin(GL_POINTS);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(x4, y4, z4);
+    glEnd();
+    glFlush();
+
+    float xa5 = -50, ya5 = 42, xb5 = -50, yb5 = 23, xc5 = -38, yc5 = 30, xd5 = -57, yd5 = 30;
+    float ma5b5 = (yb5 - ya5) / (xb5 - xa5);
+    float ca5b5 = ya5 - ma5b5 * xa5;
+    float mc5d5 = (yd5 - yc5) / (xd5 - xc5);
+    float cc5d5 = yc5 - mc5d5 * xc5;
+
+    float x5 = (cc5d5 - ca5b5) / (ma5b5 - mc5d5);
+    float y5 = ma5b5 * x5 + ca5b5;
+    float z5 = 0.3;
+
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xa5, ya5, z5);
+    glVertex3f(xb5, yb5, z5);
+    glEnd();
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(xc5, yc5, z5);
+    glVertex3f(xd5, yd5, z5);
+    glEnd();
+    glBegin(GL_POINTS);
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex3f(x5, y5, z5);
+    glEnd();
+    glFlush();
 
     //Meja
     glBegin(GL_QUADS);
