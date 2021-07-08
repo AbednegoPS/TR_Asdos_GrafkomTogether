@@ -397,7 +397,7 @@ void tampil(void)
     glVertex3f(57, 42.0, 0.2);
     glEnd();
 
-glBegin(GL_QUADS);
+    glBegin(GL_QUADS);
     glColor3f(0.62, 0.86, 0.99);
     glVertex3f(-57, 23.0, 0.2);
     glVertex3f(-38.0, 23.0, 0.2);
@@ -693,6 +693,39 @@ glBegin(GL_QUADS);
     glVertex3f(-100.0, 25, -60.0);
     glVertex3f(-85.0, 25, -60.0);
     glVertex3f(-92.5, 45, -45.0);
+    glEnd();
+    
+    //jendela depan
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.00);
+    glVertex3f(-10.0, 35.0, 40.1);
+    glVertex3f(-10.0, 40.0, 40.1);
+    glVertex3f(10.0, 40.0, 40.1);
+    glVertex3f(10.0, 35.0, 40.1);
+    glEnd();
+    //jendela depan
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.00);
+    glVertex3f(-10.0, 27.0, 40.1);
+    glVertex3f(-10.0, 32.0, 40.1);
+    glVertex3f(10.0, 32.0, 40.1);
+    glVertex3f(10.0, 27.0, 40.1);
+    glEnd();
+    //jendela depan
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.00);
+    glVertex3f(-10.0, 19.0, 40.1);
+    glVertex3f(-10.0, 24.0, 40.1);
+    glVertex3f(10.0, 24.0, 40.1);
+    glVertex3f(10.0, 19.0, 40.1);
+    glEnd();
+    //jendela depan
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.00);
+    glVertex3f(-10.0, 11.0, 40.1);
+    glVertex3f(-10.0, 16.0, 40.1);
+    glVertex3f(10.0, 16.0, 40.1);
+    glVertex3f(10.0, 11.0, 40.1);
     glEnd();
     
     //Jendela Samping Kanan Kiri
