@@ -1288,6 +1288,44 @@ void tampil(void)
     glVertex3f(44.9, -10.5, -35.0);
     glEnd();
     
+    //Tempat Sampah
+    glBegin(GL_QUADS);
+    glColor3f(0, 0, 0);
+    glVertex3f(53.0, -14.5, -40.0);
+    glVertex3f(58.0, -14.5, -40.0);
+    glVertex3f(58.0, -14.5, -35.0);
+    glVertex3f(53.0, -14.5, -35.0);
+    glEnd();
+ 
+    glBegin(GL_QUADS);
+    glColor3f(0.05, 0.26, 0.32);
+    glVertex3f(60.0, 0.0, -42.0);
+    glVertex3f(60.0, 0.0, -33.0);
+    glVertex3f(58.0, -14.5, -35.0);
+    glVertex3f(58.0, -14.5, -40.0);
+    glEnd();
+    glBegin(GL_QUADS);
+    glColor3f(0.05, 0.26, 0.32);
+    glVertex3f(50.0, 0.0, -42.0);
+    glVertex3f(50.0, 0.0, -33.0);
+    glVertex3f(53.0, -14.5, -35.0);
+    glVertex3f(53.0, -14.5, -40.0);
+    glEnd();
+    glBegin(GL_QUADS);
+    glColor3f(0.19, 0.41, 0.46);
+    glVertex3f(50.0, 0.0, -42.0);
+    glVertex3f(60.0, 0.0, -42.0);
+    glVertex3f(58.0, -14.5, -40.0);
+    glVertex3f(53.0, -14.5, -40.0);
+    glEnd();
+    glBegin(GL_QUADS);
+    glColor3f(0.18, 0.35, 0.39);
+    glVertex3f(50.0, 0.0, -33.0);
+    glVertex3f(60.0, 0.0, -33.0);
+    glVertex3f(58.0, -14.5, -35.0);
+    glVertex3f(53.0, -14.5, -35.0);
+    glEnd();
+    
     //Lemari
     glBegin(GL_QUADS);
     glColor3f(0.74, 0.56, 0.55);
