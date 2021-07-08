@@ -557,6 +557,127 @@ void tampil(void)
     glVertex3f(138.0, -14, -45.0);
     glVertex3f(135.0, -14, -45.0);
     glEnd();
+    
+    //Pohon
+    glBegin(GL_QUADS);
+    glColor3f(0.54, 0.27, 0.074);
+    glVertex3f(-90.0, -15, -50.0);
+    glVertex3f(-95.0, -15, -50.0);
+    glVertex3f(-95.0, -15, -45.0);
+    glVertex3f(-90.0, -15, -45.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.54, 0.27, 0.074);
+    glVertex3f(-90.0, 25, -50.0);
+    glVertex3f(-95.0, 25, -50.0);
+    glVertex3f(-95.0, 25, -45.0);
+    glVertex3f(-90.0, 25, -45.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.54, 0.27, 0.074);
+    glVertex3f(-90.0, -15, -50.0);
+    glVertex3f(-90.0, 25, -50.0);
+    glVertex3f(-90.0, 25, -45.0);
+    glVertex3f(-90.0, -15, -45.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.54, 0.27, 0.074);
+    glVertex3f(-95.0, -15, -50.0);
+    glVertex3f(-95.0, 25, -50.0);
+    glVertex3f(-95.0, 25, -45.0);
+    glVertex3f(-95.0, -15, -45.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.54, 0.27, 0.074);
+    glVertex3f(-90.0, -15, -50.0);
+    glVertex3f(-95.0, -15, -50.0);
+    glVertex3f(-95.0, 25, -45.0);
+    glVertex3f(-90.0, 25, -45.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.54, 0.27, 0.074);
+    glVertex3f(-90.0, -15, -50.0);
+    glVertex3f(-95.0, -15, -50.0);
+    glVertex3f(-95.0, 25, -50.0);
+    glVertex3f(-90.0, 25, -50.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-100.0, 15, -60.0);
+    glVertex3f(-85.0, 15, -60.0);
+    glVertex3f(-85.0, 15, -35.0);
+    glVertex3f(-100.0, 15, -35.0);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-85.0, 15, -35.0);
+    glVertex3f(-85.0, 15, -60.0);
+    glVertex3f(-92.5, 30, -45.0);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-100.0, 15, -35.0);
+    glVertex3f(-100.0, 15, -60.0);
+    glVertex3f(-92.5, 30, -45.0);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-100.0, 15, -35.0);
+    glVertex3f(-85.0, 15, -35.0);
+    glVertex3f(-92.5, 30, -45.0);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-100.0, 15, -60.0);
+    glVertex3f(-85.0, 15, -60.0);
+    glVertex3f(-92.5, 30, -45.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-100.0, 25, -60.0);
+    glVertex3f(-85.0, 25, -60.0);
+    glVertex3f(-85.0, 25, -35.0);
+    glVertex3f(-100.0, 25, -35.0);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-85.0, 25, -35.0);
+    glVertex3f(-85.0, 25, -60.0);
+    glVertex3f(-92.5, 45, -45.0);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-100.0, 25, -35.0);
+    glVertex3f(-100.0, 25, -60.0);
+    glVertex3f(-92.5, 45, -45.0);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-100.0, 25, -35.0);
+    glVertex3f(-85.0, 25, -35.0);
+    glVertex3f(-92.5, 45, -45.0);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.6, 0.8, 0.19);
+    glVertex3f(-100.0, 25, -60.0);
+    glVertex3f(-85.0, 25, -60.0);
+    glVertex3f(-92.5, 45, -45.0);
+    glEnd();
 
     //Meja
     glBegin(GL_QUADS);
