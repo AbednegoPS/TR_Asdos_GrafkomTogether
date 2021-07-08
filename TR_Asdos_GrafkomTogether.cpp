@@ -948,6 +948,55 @@ void tampil(void)
     glVertex3f(10.0, 11.0, 40.1);
     glEnd();
     
+    //Kaca Jendela Gedung
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.0);
+    glVertex3f(-58.0, -10.0, 0.2);
+    glVertex3f(-48.0, -10.0, 0.2);
+    glVertex3f(-48.0, 13.0, 0.2);
+    glVertex3f(-58.0, 13.0, 0.2);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.0);
+    glVertex3f(-46.0, -10.0, 0.2);
+    glVertex3f(-36.0, -10.0, 0.2);
+    glVertex3f(-36.0, 13.0, 0.2);
+    glVertex3f(-46.0, 13.0, 0.2);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.0);
+    glVertex3f(-34.0, -10.0, 0.2);
+    glVertex3f(-24.0, -10.0, 0.2);
+    glVertex3f(-24.0, 13.0, 0.2);
+    glVertex3f(-34.0, 13.0, 0.2);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.0);
+    glVertex3f(58.0, -10.0, 0.2);
+    glVertex3f(48.0, -10.0, 0.2);
+    glVertex3f(48.0, 13.0, 0.2);
+    glVertex3f(58.0, 13.0, 0.2);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.0);
+    glVertex3f(46.0, -10.0, 0.2);
+    glVertex3f(36.0, -10.0, 0.2);
+    glVertex3f(36.0, 13.0, 0.2);
+    glVertex3f(46.0, 13.0, 0.2);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.90, 0.96, 1.0);
+    glVertex3f(34.0, -10.0, 0.2);
+    glVertex3f(24.0, -10.0, 0.2);
+    glVertex3f(24.0, 13.0, 0.2);
+    glVertex3f(34.0, 13.0, 0.2);
+    glEnd();
+    
     //Jendela Samping Kanan Kiri
     glBegin(GL_POLYGON);
     glColor3f(0.8, 0.3, 0.003);
