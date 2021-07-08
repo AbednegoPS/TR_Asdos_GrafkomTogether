@@ -1202,6 +1202,40 @@ void tampil(void)
     glVertex3f(-6.0, -14.9, -12.0);
     glVertex3f(-7.0, -14.9, -12.0);
     glEnd();
+    
+    //TV
+    for (int i = 0; i < 2; i++) {
+        glBegin(GL_POLYGON);
+        glColor3f(0, 0, 0);
+        glVertex3f(20.0, 35.0, -44.0 + i * 3);
+        glVertex3f(40.0, 35.0, -44.0 + i * 3);
+        glVertex3f(40.0, 20.0, -44.0 + i * 3);
+        glVertex3f(20.0, 20.0, -44.0 + i * 3);
+        glEnd();
+    }
+    for (int i = 0; i < 2; i++) {
+        glBegin(GL_POLYGON);
+        glColor3f(0, 0, 0);
+        glVertex3f(40.0 + i * -20, 35.0, -41.0);
+        glVertex3f(40.0 + i * -20, 35.0, -44.0);
+        glVertex3f(40.0 + i * -20, 20.0, -44.0);
+        glVertex3f(40.0 + i * -20, 20.0, -41.0);
+        glEnd();
+    }
+    glBegin(GL_QUADS);
+    glColor3f(0, 0, 0);
+    glVertex3f(20.0, 20, -44.0);
+    glVertex3f(20.0, 20, -41.0);
+    glVertex3f(40.0, 20, -41.0);
+    glVertex3f(40.0, 20, -44.0);
+    glEnd();
+    glBegin(GL_QUADS);
+    glColor3f(0, 0, 0);
+    glVertex3f(20.0, 35, -44.0);
+    glVertex3f(20.0, 35, -41.0);
+    glVertex3f(40.0, 35, -41.0);
+    glVertex3f(40.0, 35, -44.0);
+    glEnd();
 
     //Pot
     glBegin(GL_QUADS);
