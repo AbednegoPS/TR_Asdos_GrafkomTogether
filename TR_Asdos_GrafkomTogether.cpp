@@ -388,6 +388,175 @@ void tampil(void)
     glVertex3f(12.0, -15.0, 3.0);
     glVertex3f(12.0, -15.0, 6.0);
     glEnd();
+    
+    //Jalan
+    glBegin(GL_QUADS);
+    glColor3f(0.14, 0.14, 0.14);
+    glVertex3f(-100.0, -15, 33.0);
+    glVertex3f(-100.0, -15, 5.0);
+    glVertex3f(70.0, -15, 5.0);
+    glVertex3f(70.0, -15, 33.0);
+    glEnd();
+    //garis jalan depan
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(-100.0, -14, 20.0);
+    glVertex3f(-100.0, -14, 17.0);
+    glVertex3f(-80.0, -14, 17.0);
+    glVertex3f(-80.0, -14, 20.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(-50.0, -14, 20.0);
+    glVertex3f(-50.0, -14, 17.0);
+    glVertex3f(-30.0, -14, 17.0);
+    glVertex3f(-30.0, -14, 20.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(0.0, -14, 20.0);
+    glVertex3f(0.0, -14, 17.0);
+    glVertex3f(20.0, -14, 17.0);
+    glVertex3f(20.0, -14, 20.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(50.0, -14, 20.0);
+    glVertex3f(50.0, -14, 17.0);
+    glVertex3f(70.0, -14, 17.0);
+    glVertex3f(70.0, -14, 20.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.14, 0.14, 0.14);
+    glVertex3f(-100.0, -15, -90.0);
+    glVertex3f(-123.0, -15, -90.0);
+    glVertex3f(-123.0, -15, 33.0);
+    glVertex3f(-100.0, -15, 33.0);
+    glEnd();
+    //garis jalan kiri
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(-112.5, -14, -20.0);
+    glVertex3f(-112.5, -14, 0.0);
+    glVertex3f(-110.0, -14, 0.0);
+    glVertex3f(-110.0, -14, -20.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(-112.5, -14, -70.0);
+    glVertex3f(-112.5, -14, -50.0);
+    glVertex3f(-110.0, -14, -50.0);
+    glVertex3f(-110.0, -14, -70.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.14, 0.14, 0.14);
+    glVertex3f(-100.0, -15, -90.0);
+    glVertex3f(125.0, -15, -90.0);
+    glVertex3f(125.0, -15, -65.0);
+    glVertex3f(-100.0, -15, -65.0);
+    glEnd();
+    //garis jalan belakang
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(-100.0, -14, -78.0);
+    glVertex3f(-100.0, -14, -75.0);
+    glVertex3f(-80.0, -14, -75.0);
+    glVertex3f(-80.0, -14, -78.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(-50.0, -14, -78.0);
+    glVertex3f(-50.0, -14, -75.0);
+    glVertex3f(-30.0, -14, -75.0);
+    glVertex3f(-30.0, -14, -78.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(0.0, -14, -78.0);
+    glVertex3f(0.0, -14, -75.0);
+    glVertex3f(20.0, -14, -75.0);
+    glVertex3f(20.0, -14, -78.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(50.0, -14, -78.0);
+    glVertex3f(50.0, -14, -75.0);
+    glVertex3f(70.0, -14, -75.0);
+    glVertex3f(70.0, -14, -78.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(100.0, -14, -78.0);
+    glVertex3f(100.0, -14, -75.0);
+    glVertex3f(120.0, -14, -75.0);
+    glVertex3f(120.0, -14, -78.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.14, 0.14, 0.14);
+    glVertex3f(70.0, -15, 5.0);
+    glVertex3f(95.0, -15, 5.0);
+    glVertex3f(95.0, -15, 60.0);
+    glVertex3f(70.0, -15, 60.0);
+    glEnd();
+    //garis jalan depan maju
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(82.0, -14, 35.0);
+    glVertex3f(85.0, -14, 35.0);
+    glVertex3f(85.0, -14, 55.0);
+    glVertex3f(82.0, -14, 55.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.14, 0.14, 0.14);
+    glVertex3f(125.0, -15, 60.0);
+    glVertex3f(70.0, -15, 60.0);
+    glVertex3f(70.0, -15, 87.0);
+    glVertex3f(125.0, -15, 87.0);
+    glEnd();
+    //garis jalan depan kiri
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(100.0, -14, 72.0);
+    glVertex3f(120.0, -14, 72.0);
+    glVertex3f(120.0, -14, 75.0);
+    glVertex3f(100.0, -14, 75.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.14, 0.14, 0.14);
+    glVertex3f(125.0, -15, 87.0);
+    glVertex3f(150.0, -15, 87.0);
+    glVertex3f(150.0, -15, -90.0);
+    glVertex3f(125.0, -15, -90.0);
+    glEnd();
+    //garis jalan kanan
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(135.0, -14, 40.0);
+    glVertex3f(138.0, -14, 40.0);
+    glVertex3f(138.0, -14, 15.0);
+    glVertex3f(135.0, -14, 15.0);
+    glEnd();
+    
+    glBegin(GL_QUADS);
+    glColor3f(1, 1, 1);
+    glVertex3f(135.0, -14, -20.0);
+    glVertex3f(138.0, -14, -20.0);
+    glVertex3f(138.0, -14, -45.0);
+    glVertex3f(135.0, -14, -45.0);
+    glEnd();
 
     //Meja
     glBegin(GL_QUADS);
