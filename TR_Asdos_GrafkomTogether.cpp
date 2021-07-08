@@ -17,6 +17,8 @@ float xdiff = 0.0f;
 float ydiff = 0.0f;
 bool mouseDown = false;
 
+float sca = 0.0f;
+
 float xmov = 0.0f;
 float ymov = 0.0f;
 float zmov = 0.0f;
@@ -65,6 +67,8 @@ void tampil(void)
     glRotatef(xrot, 1.0f, 0.0f, 0.0f);
     glRotatef(yrot, 0.0f, 1.0f, 0.0f);
     glRotatef(zrot, 0.0f, 0.0f, 1.0f);
+    
+    glScalef(sca + 1, sca + 1, sca + 1);
 
     glTranslatef(xmov, ymov, zmov);
     glPushMatrix();
@@ -2432,6 +2436,14 @@ void keyboard(unsigned char key, int x, int y)
     case 'j':
     case 'J':
         zrot -= 3.0;
+        break;
+    case 'i':
+    case 'I':
+        sca += 0.1;
+        break;
+    case 'k':
+    case 'K':
+        sca -= 0.1;
         break;
     case '1':
         ymov += 3.0;
