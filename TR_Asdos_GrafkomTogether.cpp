@@ -40,7 +40,7 @@ int main(int argc, char** argv)
 }
 void init(void)
 {
-    glClearColor(0.0, 0.0, 0.0, 0.0);
+    glClearColor(0.95, 0.99, 1.00, 0.0);
     glEnable(GL_DEPTH_TEST);
     is_depth = 1;
     glMatrixMode(GL_MODELVIEW);
@@ -68,6 +68,15 @@ void tampil(void)
 
     glTranslatef(xmov, ymov, zmov);
     glPushMatrix();
+    
+    //Alas
+    glBegin(GL_QUADS);
+    glColor3f(0.36, 0.27, 0.1);
+    glVertex3f(-150.0, -16, -130.0);
+    glVertex3f(-150.0, -16, 87.0);
+    glVertex3f(180.0, -16, 87.0);
+    glVertex3f(180.0, -16, -130.0);
+    glEnd();
     
     //Gedung Universitas
     glBegin(GL_QUADS);
